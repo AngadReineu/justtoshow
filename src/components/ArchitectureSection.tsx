@@ -38,7 +38,7 @@ export default function ArchitectureSection({ filter }: Props) {
             A hybrid linear-attention mechanism replacing standard quadratic attention in most
             layers (roughly a 3:1 ratio), preserving full quadratic attention only where it
             matters most. Paired with Attention Residuals (AttnRes), which selectively retrieve
-            information across model depth rather than accumulating it uniformly — together
+            information across model depth rather than accumulating it uniformly together
             enabling a 1M-token window at a fraction of the usual compute cost.
           </p>
         </div>
@@ -47,7 +47,7 @@ export default function ArchitectureSection({ filter }: Props) {
       <p className="mt-4 text-sm text-inkFaint font-mono leading-relaxed">
         Bottom line: this is a comparison of a published design against an unpublished one. Kimi
         K3's architecture is unusually transparent because Moonshot released the technical details
-        alongside the open weights. Claude achieves comparable practical outcomes — long context,
+        alongside the open weights. Claude achieves comparable practical outcomes long context,
         strong reasoning — through methods Anthropic hasn't disclosed.
       </p>
     </section>

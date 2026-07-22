@@ -174,12 +174,12 @@ export const selectiveReasons: Reason[] = [
   {
     title: "Cost-sensitive, high-volume tasks",
     detail:
-      "Where Sonnet-tier quality is sufficient and volume is very high, Kimi K3's pricing — or self-hosting the open weights once released — could reduce cost.",
+      "Where Sonnet-tier quality is sufficient and volume is very high, Kimi K3's pricing or self-hosting the open weights once released — could reduce cost.",
   },
   {
     title: "Self-hosting flexibility",
     detail:
-      "Open-weight means it can eventually be fine-tuned or deployed on private infrastructure — useful for data residency or customization Claude's API model cannot meet.",
+      "Open-weight means it can eventually be fine-tuned or deployed on private infrastructure useful for data residency or customization Claude's API model cannot meet.",
   },
   {
     title: "Frontend / coding tasks",
