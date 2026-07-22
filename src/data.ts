@@ -118,12 +118,12 @@ export const efficiencyPoints: EfficiencyPoint[] = [
   {
     label: "Mixture of Experts (MoE) sparsity",
     detail:
-      "2.8 trillion total parameters, but only 16 of 896 experts activate per token — enormous stored knowledge, a fraction of the compute cost per token.",
+      "2.8 trillion total parameters, but only 16 of 896 experts activate per token enormous stored knowledge, a fraction of the compute cost per token.",
   },
   {
     label: "Scaling efficiency",
     detail:
-      "Moonshot reports roughly 2.5x the scaling efficiency of its predecessor, Kimi K2 — more capability per unit of training compute.",
+      "Moonshot reports roughly 2.5x the scaling efficiency of its predecessor, Kimi K2 more capability per unit of training compute.",
   },
   {
     label: "Quantization-aware training (QAT)",
@@ -133,7 +133,7 @@ export const efficiencyPoints: EfficiencyPoint[] = [
   {
     label: "Open-weight distribution",
     detail:
-      "Because Moonshot releases the weights, third parties can host and serve the model competitively — pressuring API pricing versus a single-source closed model.",
+      "Because Moonshot releases the weights, third parties can host and serve the model competitively pressuring API pricing versus a single-source closed model.",
   },
 ];
 
@@ -151,7 +151,7 @@ export const cautionReasons: Reason[] = [
   {
     title: "Benchmark position",
     detail:
-      "Independent evaluations place Kimi K3 third overall on major intelligence indexes — behind Claude Fable 5 and GPT-5.6 Sol Max, and behind Claude Opus 4.8 on some knowledge-work benchmarks.",
+      "Independent evaluations place Kimi K3 third overall on major intelligence indexes behind Claude Fable 5 and GPT-5.6 Sol Max, and behind Claude Opus 4.8 on some knowledge-work benchmarks.",
   },
   {
     title: "Real-world UX",
@@ -159,7 +159,7 @@ export const cautionReasons: Reason[] = [
       "Reports note it is notably slow (~35 tokens/sec per this comparison, ~62 tokens/sec per Moonshot's own spec sheet) and verbose — tasks may cost more tokens in practice than headline pricing suggests.",
   },
   {
-    title: "Agentic reliability",
+    title: "Agentic-reliability",
     detail:
       "Early reports flag a tendency to act rather than ask for clarification in ambiguous situations, and quality degradation in harnesses that truncate its reasoning history.",
   },

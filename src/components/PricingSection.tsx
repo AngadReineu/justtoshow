@@ -8,7 +8,7 @@ export default function PricingSection({ filter }: Props) {
       <SectionHeading
         index="2"
         title="Why is Kimi K3 cheaper?"
-        dek="₹289 input / ₹1,445 output — matching Sonnet 5's standard rate, well under Opus 4.8, and far under Fable 5. The gap is architectural, not a pricing decision."
+        dek="₹289 input / ₹1,445 output matching Sonnet 5's standard rate, well under Opus 4.8, and far under Fable 5. The gap is architectural, not a pricing decision."
       />
 
       <div className="grid md:grid-cols-2 gap-px bg-line border border-line">
