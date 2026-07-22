@@ -16,7 +16,7 @@ export default function Header({ filter, setFilter }: Props) {
     <header className="border-b border-line">
       <div className="max-w-5xl mx-auto px-6 md:px-10 pt-10 pb-8">
         <div className="flex items-baseline justify-between gap-4 font-mono text-xs uppercase tracking-widest text-inkFaint">
-          <span>Dossier No. 026 — Model Evaluation</span>
+          <span>Model Evaluation</span>
           <span>Filed 22 Jul 2026</span>
         </div>
 
